@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Michael-Andre Odusami's portfolio - Showcasing skills in Java, Python, TypeScript, and more. View projects and experience in software development."
+		/>
+		<meta
+			name="keywords"
+			content="Michael-Andre Odusami, modusami, odusami, michael-andre, Odusami, Modusami, software developer, Java, Python, TypeScript, React, Spring Boot, portfolio"
+		/>
+		<meta name="author" content="Michael-Andre Odusami" />
+		<meta property="og:title" content="Michael-Andre Odusami - Software Developer Portfolio" />
+		<meta
+			property="og:description"
+			content="Explore Michael-Andre Odusami's projects and skills in software development, including work with Java, Python, and modern web technologies."
+		/>
+		<meta property="og:url" content="https://www.odusami.com" />
+		<title>modusami</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+			body {
+				font-family: "Poppins", sans-serif;
+			}
+
+			.animate-fade-in {
+				animation: fadeIn 1s ease-in;
+			}
+
+			@keyframes gentle-pulse {
+				0%,
+				100% {
+					transform: scale(1);
+				}
+				50% {
+					transform: scale(1.05);
+				}
+			}
+
+			.animate-pulse {
+				animation: gentle-pulse 2s infinite;
+			}
+
+			@keyframes fadeIn {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+
+			.animate-slide-in {
+				animation: slideIn 1s ease-out;
+			}
+
+			@keyframes slideIn {
+				0% {
+					transform: translateY(50px);
+					opacity: 0;
+				}
+				100% {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+
+			.animate-title {
+				animation: titleChange 6s linear infinite;
+			}
+
+			@keyframes titleChange {
+				0%,
+				45%,
+				100% {
+					content: "Willkommen";
+				}
+				50%,
+				95% {
+					content: "Welcome";
+				}
+			}
+		</style>
+	</head>
+	<body class="bg-gray-100">
+		<header class="fixed w-full bg-white shadow-md z-50">
+			<nav
+				class="container mx-auto px-6 py-3 flex flex-col md:flex-row justify-between items-center"
+			>
+				<a href="#home" class="text-xl font-bold text-gray-800">Michael-Andre Odusami</a>
+				<div class="space-x-4">
+					<a href="#about" class="text-gray-600 hover:text-gray-800">About</a>
+					<a href="#experience" class="text-gray-600 hover:text-gray-800">Experience</a>
+					<a href="#projects" class="text-gray-600 hover:text-gray-800">Projects</a>
+					<a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
+					<a
+						href="assets/files/3.pdf"
+						target="_blank"
+						class="bg-blue-500 text-white px-4 py-2 rounded shadow hover:bg-blue-600 transition duration-300 hidden lg:inline"
+						>View Resume</a
+					>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section
+				id="home"
+				class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-white"
+			>
+				<div class="text-center animate-fade-in">
+					<h1 class="text-5xl font-bold mb-4">
+						<span class="animate-title">Willkommen</span> to My Page!
+					</h1>
+					<p class="text-xl mb-8">
+						I'm a passionate software engineer looking to make a difference using tech!
+					</p>
+					<div class="space-x-4">
+						<a
+							href="https://github.com/modusami"
+							target="_blank"
+							class="text-2xl hover:text-gray-300"
+							><i class="fab fa-github"></i
+						></a>
+						<a
+							href="https://linkedin.com/in/odusami03"
+							target="_blank"
+							class="text-2xl hover:text-gray-300"
+							><i class="fab fa-linkedin"></i
+						></a>
+						<a
+							href="assets/files/3.pdf"
+							target="_blank"
+							class="text-2xl hover:text-gray-300"
+							><i class="fas fa-file"></i
+						></a>
+						<a href="mailto:modusami@gmail.com" class="text-2xl hover:text-gray-300"
+							><i class="fas fa-envelope"></i
+						></a>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="py-20 bg-white">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+					<div class="max-w-2xl mx-auto animate-slide-in">
+						<p class="text-gray-600 mb-4">
+							I'm a Computer Science student at Virginia Tech with a strong foundation
+							in software development. My expertise spans across multiple programming
+							languages including Java, Python, TypeScript, and more. I'm proficient
+							in modern frameworks such as Spring Boot, React, Next.js, etc, which I
+							leverage to create responsive and user-friendly applications.
+						</p>
+
+						<p class="text-gray-600">
+							When I'm not coding, you can find me learning German, explaining why
+							Naruto is the best anime in the world, and playing
+							<span
+								><a
+									class="text-blue-500"
+									href="assets/images/06.JPG"
+									target="_blank"
+									>soccer</a
+								></span
+							>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="experience" class="py-20 bg-gray-100">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold mb-8 text-center">Experience</h2>
+					<div class="max-w-2xl mx-auto space-y-8 animate-slide-in">
+						<div class="bg-white p-6 rounded shadow">
+							<h3 class="text-xl font-bold mb-2">Software Engineer Fellow</h3>
+							<p class="text-gray-600 mb-2">
+								Headstarter | New York City, NY | July 2024 - Present
+							</p>
+							<p class="text-gray-600">
+								Currently participating in a 7-week Summer Fellow program, bridging
+								the gap between education and industry experience. Engaging in
+								multiple AI projects, weekend hackathons, and receiving mentorship
+								from professional software engineers. Developing a product aiming to
+								generate $1000 in revenue and 1000 account sign-ups, while
+								completing 5 AI projects throughout the program.
+							</p>
+						</div>
+						<div class="bg-white p-6 rounded shadow">
+							<h3 class="text-xl font-bold mb-2">IT Intern</h3>
+							<p class="text-gray-600 mb-2">
+								TDI - Blackstone Portfolio Company | New York City, NY | May 2024 -
+								Present
+							</p>
+							<p class="text-gray-600">
+								Joined the technology team working on the $6 billion Champlain
+								Hudson Power Express® (CHPE) project. Developed a Java GUI
+								application to process Microsoft Project files and generate Excel
+								sheets, improving project management processes. Automated
+								stakeholder notifications, reducing manual oversight risks and
+								improving project timeline adherence by an estimated 15%.
+							</p>
+						</div>
+						<div class="bg-white p-6 rounded shadow">
+							<h3 class="text-xl font-bold mb-2">Fullstack Developer Intern</h3>
+							<p class="text-gray-600 mb-2">
+								ipNX Nigeria | Lagos, Nigeria | June 2023 - Aug 2023
+							</p>
+							<p class="text-gray-600">
+								Led UI/UX project team in designing a new, more accessible customer
+								form. Spearheaded the design and implementation of a dynamic
+								wizard-style form using JavaScript and PHP, with a robust backend
+								for data sanitization. Achieved a 30% increase in asset incident and
+								request customer satisfaction, and decreased customer request and
+								incident resolution time by 10%.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="py-20 bg-white">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-8 animate-slide-in">
+						<div class="rounded shadow overflow-hidden">
+							<div class="h-48 overflow-hidden">
+								<a href="https://github.com/modusami/Bytes" target="_blank"
+									><img
+										src="assets/images/proj/02.png"
+										alt="Bytes Project"
+										class="w-full h-full object-cover"
+								/></a>
+							</div>
+							<div class="p-6">
+								<h3 class="text-xl font-bold mb-2">Bytes</h3>
+								<p class="text-gray-600 mb-4">
+									A short-term news mobile application that keeps users engaged by
+									simulating the popular social media design known as "Reels" and
+									incorporating live news data from NewsAPI. Led frontend
+									development, increasing user engagement by 10%.
+								</p>
+								<a
+									href="https://github.com/modusami/Bytes"
+									target="_blank"
+									class="text-blue-500 hover:underline"
+									>View Project</a
+								>
+							</div>
+						</div>
+						<div class="rounded shadow overflow-hidden">
+							<div class="h-48 overflow-hidden">
+								<a
+									href="https://github.com/modusami/expense-tracker-cml-app"
+									target="_blank"
+									><img
+										src="assets/images/proj/04.png"
+										alt="Expense Tracker Project"
+										class="w-full h-full object-cover"
+								/></a>
+							</div>
+							<div class="p-6">
+								<h3 class="text-xl font-bold mb-2">Expense Tracker CML App</h3>
+								<p class="text-gray-600 mb-4">
+									A command-line expense tracker application with CRUD
+									functionality that manually keeps track of daily expenses.
+									Designed to potentially cut spending down by up to 40%. Built
+									with Java, Spring Boot, Hibernate, MySQL, and Spring Data JPA.
+								</p>
+								<a
+									href="https://github.com/modusami/expense-tracker-cml-app"
+									target="_blank"
+									class="text-blue-500 hover:underline"
+									>View Project</a
+								>
+							</div>
+						</div>
+						<div class="rounded shadow overflow-hidden">
+							<div class="h-48 overflow-hidden">
+								<a href="https://github.com/modusami/Yumex" target="_blank"
+									><img
+										src="assets/images/proj/01.png"
+										alt="Yumex Project"
+										class="w-full h-full object-cover"
+								/></a>
+							</div>
+							<div class="p-6">
+								<h3 class="text-xl font-bold mb-2">Yumex</h3>
+								<p class="text-gray-600 mb-4">
+									A full-stack food forum allowing users to discover and share
+									meals with one another, as well as like and comment on each
+									other's posts. Developed using TypeScript, Next.js, Tailwind,
+									and Supabase.
+								</p>
+								<a
+									href="https://github.com/modusami/Yumex"
+									target="_blank"
+									class="text-blue-500 hover:underline"
+									>View Project</a
+								>
+							</div>
+						</div>
+						<div class="rounded shadow overflow-hidden">
+							<div class="h-48 overflow-hidden">
+								<a
+									href="https://github.com/modusami/youtube_music_playlist_manager"
+									target="_blank"
+									><img
+										src="assets/images/proj/03.png"
+										alt="YouTube Music Playlist Manager Project"
+										class="w-full h-full object-cover"
+								/></a>
+							</div>
+							<div class="p-6">
+								<h3 class="text-xl font-bold mb-2">
+									YouTube Music Playlist Manager
+								</h3>
+								<p class="text-gray-600 mb-4">
+									Developed a new API for automating and manipulating YouTube
+									Music Playlists, addressing the complexities of playlist
+									interactions. This Python-based project translates and enhances
+									a pre-existing API for improved functionality.
+								</p>
+								<a
+									href="https://github.com/modusami/youtube_music_playlist_manager"
+									target="_blank"
+									class="text-blue-500 hover:underline"
+									>View Project</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="py-20 bg-white">
+				<div class="container mx-auto px-6">
+					<h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+					<div class="max-w-md mx-auto text-center">
+						<div class="space-x-6 mb-8">
+							<a
+								href="https://github.com/modusami"
+								target="_blank"
+								class="text-3xl text-gray-700 hover:text-blue-500 transition duration-300"
+							>
+								<i class="fab fa-github"></i>
+							</a>
+							<a
+								href="https://linkedin.com/in/odusami03"
+								target="_blank"
+								class="text-3xl text-gray-700 hover:text-blue-500 transition duration-300"
+							>
+								<i class="fab fa-linkedin"></i>
+							</a>
+							<a
+								href="mailto:modusami03@gmail.com"
+								class="text-3xl text-gray-700 hover:text-blue-500 transition duration-300"
+							>
+								<i class="fas fa-envelope"></i>
+							</a>
+						</div>
+						<a
+							href="assets/files/3.pdf"
+							class="inline-block px-8 py-3 bg-blue-500 text-white font-bold rounded-full shadow-lg hover:bg-blue-600 transform hover:scale-105 transition duration-300 animate-pulse"
+						>
+							View Resume
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="bg-gray-800 text-white py-6">
+			<div class="container mx-auto px-6 text-center">
+				<p>&copy; 2023 Your Name. All rights reserved.</p>
+			</div>
+		</footer>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", (event) => {
+				const sections = document.querySelectorAll("section");
+				const navLinks = document.querySelectorAll("nav a");
+
+				window.addEventListener("scroll", () => {
+					let current = "";
+					sections.forEach((section) => {
+						const sectionTop = section.offsetTop;
+						const sectionHeight = section.clientHeight;
+						if (pageYOffset >= sectionTop - sectionHeight / 3) {
+							current = section.getAttribute("id");
+						}
+					});
+
+					navLinks.forEach((link) => {
+						link.classList.remove("text-blue-500");
+						if (link.getAttribute("href").slice(1) === current) {
+							link.classList.add("text-blue-500");
+						}
+					});
+				});
+			});
+
+			const animatedTitle = document.querySelector(".animate-title");
+			setInterval(() => {
+				animatedTitle.textContent =
+					animatedTitle.textContent === "Willkommen" ? "Welcome" : "Willkommen";
+			}, 3000);
+		</script>
+	</body>
+</html>
